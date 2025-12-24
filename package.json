@@ -35,10 +35,6 @@
     "typescript": "^5.9.3"
   },
   "_moduleAliases": {
-    "@": "dist",
-    "@shared": "dist/shared",
-    "@modules": "dist/modules",
-    "@models": "dist/models",
-    "@config": "dist/config"
+    "@": "dist"
   }
 }
