@@ -1,5 +1,6 @@
-import app from "./app";
-import { ENV } from "./config/env";
+import "module-alias/register";
+import app from "@/app";
+import { ENV } from "@/config/env";
 
 const port = ENV.PORT;
 
