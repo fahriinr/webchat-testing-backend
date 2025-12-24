@@ -3,7 +3,7 @@ import {
   loginUser,
   findUser,
   getUsers,
-} from "@/controllers/user.controller";
+} from "../controllers/user.controller";
 import { Router } from "express";
 
 const router = Router();

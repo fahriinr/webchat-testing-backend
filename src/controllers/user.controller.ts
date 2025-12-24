@@ -1,9 +1,9 @@
-import userModel from "@/models/userModel";
+import userModel from "../models/userModel";
 import { Request, Response } from "express";
 import validator from "validator";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { ENV } from "@/config/env";
+import { ENV } from "../config/env";
 
 const createToken = (_id: string) => {
   const jwtKey = ENV.JWT_SECRET;
