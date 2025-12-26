@@ -11,6 +11,9 @@ app.use(express.json());
 app.use(cors());
 dbConnect();
 
+app.get("/ping", (req, res) => {
+  res.send("ok");
+});
 app.use("/api/user", userRoute);
 
 export default app;
